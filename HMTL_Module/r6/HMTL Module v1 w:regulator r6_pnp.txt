@@ -1,0 +1,60 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=HMTL Module v1 w:regulator r6
+*Date=00:05:18
+*CreatedBy=Fritzing 0.8.3b.07.27.048f
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;THT;36.971;-41.9191;90;Bottom;A7 A6
+2;680;THT;15.381;-44.4591;0;Bottom;680
+3;;THT;29.224;-53.0951;-90;Bottom;A5 A4
+4;;;27.8928;-3.34859;0;Bottom;TXT1
+5;;THT;7.88803;-10.4231;90;Bottom;485 A/B
+6;;;38.4293;-3.25461;0;Bottom;TXT1
+7;;;38.2409;-49.5391;0;Bottom;Via7
+8;10µF;100 mil [THT, electrolytic];19.191;-19.0591;-90;Bottom;10uf
+9;;THT;59.704;-53.0951;-90;Bottom;D6 D9
+10;;;8.06676;-24.3877;0;Bottom;IMG1
+11;100;THT;58.561;-24.1391;180;Bottom;100
+12;;THT;19.064;-53.0951;-90;Bottom;3V GND
+13;;;7.91077;-18.1578;0;Bottom;Label
+14;;dil08;14.111;-35.5564;-90;Bottom;485IC
+15;;;66.1811;-3.81897;0;Bottom;Hole1
+16;;diode-1n4001;25.541;-25.4091;0;Bottom;1N4001
+17;;;45.9291;-21.5253;-90;Bottom;RGB
+18;;THT;8.90403;-53.0951;-90;Bottom;5V GND
+19;;;53.4809;-48.316;0;Bottom;Via5
+20;;;64.9581;-48.316;0;Bottom;Via3
+21;;THT;58.688;-10.4231;90;Bottom;D8 D12
+22;;THT;48.528;-10.4231;90;Bottom;PixPWR
+23;;;67.4511;-58.429;0;Bottom;Hole3
+24;;THT;26.811;-31.7591;90;Bottom;D1 D0
+25;;THT;47.131;-41.9191;90;Bottom;A3 A2
+26;100;THT;58.561;-21.5991;180;Bottom;100
+27;;;43.3295;-36.8391;-90;Bottom;Nano
+28;Variable V;TO220 [THT];28.081;-21.8531;0;Bottom;12V Reg
+29;;;28.0809;-34.2991;0;Bottom;Via1
+30;;THT;57.291;-41.9191;90;Bottom;ARef
+31;;;17.9682;-3.34859;0;Bottom;TXT1
+32;150;THT;58.561;-19.0591;180;Bottom;150
+33;;;48.5893;-3.25461;0;Bottom;TXT1
+34;;THT;67.451;-21.5991;180;Bottom;J1
+35;1µF;100 mil [THT, electrolytic];36.971;-19.0591;-90;Bottom;1uf
+36;;THT;18.048;-10.4231;90;Bottom;12VIn
+37;;THT;28.208;-10.4231;90;Bottom;12V/5Vin
+38;;THT;38.368;-10.4231;90;Bottom;12V-5Vout
+39;;;34.3841;-46.9991;0;Bottom;Via4
+40;;;22.7188;-27.3564;0;Bottom;Via8
+41;;THT;49.544;-53.0951;-90;Bottom;D2 D3
+42;;;2.68103;-30.489;0;Bottom;Hole2
+43;680;THT;5.22103;-39.3791;-90;Bottom;680
+44;;THT;39.384;-53.0951;-90;Bottom;A1 A0
+45;;;56.0209;-49.5391;0;Bottom;Via6

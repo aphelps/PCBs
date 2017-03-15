@@ -1,0 +1,38 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=HMTL Module v1 w:regulator r4
+*Date=20:28:25
+*CreatedBy=Fritzing 0.8.3b.07.27.048f
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;68;THT;66.8866;-39.3227;-90;Bottom;68
+2;10µF;100 mil [THT, electrolytic];19.8966;-19.0027;-90;Bottom;10uf
+3;;dil08;14.8166;-35.5;-90;Bottom;485IC
+4;;THT;59.3936;-10.3667;90;Bottom;Pixel
+5;;;23.7065;-29.1628;0;Bottom;Via2
+6;100;THT;54.1866;-24.0827;180;Bottom;R5
+7;;5 mm [THT];44.0266;-21.0071;-90;Bottom;RGB
+8;;;28.7865;-34.2428;0;Bottom;Via1
+9;;;3.38658;-46.9426;0;Bottom;Hole2
+10;;THT;18.7536;-10.3667;90;Bottom;12VIn
+11;1µF;100 mil [THT, electrolytic];37.6766;-19.0027;-90;Bottom;1uf
+12;;THT;49.2336;-10.3667;90;Bottom;PixPWR
+13;Variable V;TO220 [THT];28.7866;-21.7967;0;Bottom;12V Reg
+14;680;THT;5.92658;-39.3227;-90;Bottom;R1
+15;680;THT;16.0866;-44.4027;0;Bottom;R2
+16;150;THT;54.1866;-19.0027;180;Bottom;R3
+17;;;44.0351;-36.7827;-90;Bottom;Nano
+18;;;66.8867;-3.7626;0;Bottom;Hole1
+19;;THT;8.59358;-10.3667;90;Bottom;485 A/B
+20;;5 mm [THT];65.6164;-20.8517;180;Bottom;DBG
+21;100;THT;54.1866;-21.5427;180;Bottom;R4
+22;;THT;39.0736;-10.3667;90;Bottom;12V-5Vout
+23;;THT;28.9136;-10.3667;90;Bottom;12V-5Vin

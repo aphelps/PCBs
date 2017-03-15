@@ -1,0 +1,64 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=HMTL Module v1 w:regulator r7
+*Date=09:27:38
+*CreatedBy=Fritzing 0.8.3b.07.27.048f
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;28.0809;-34.2991;0;Bottom;Via1
+2;;;6.49966;-18.8163;0;Bottom;Label
+3;;THT;39.384;-53.0951;-90;Bottom;A1 A0
+4;150;THT;49.036;-19.6941;180;Bottom;150
+5;;THT;67.451;-29.2191;-180;Bottom;D13
+6;;diode-1n4001;22.366;-25.4091;180;Bottom;1N4001
+7;;;29.2598;-60.8205;0;Bottom;TXT3
+8;;;34.3841;-46.9991;0;Bottom;Via4
+9;;THT;28.208;-10.4231;90;Bottom;12Vout
+10;Variable V;TO220 [THT];24.271;-21.8531;0;Bottom;12V Reg
+11;;THT;57.291;-41.9191;90;Bottom;ARef
+12;;THT;26.811;-31.7591;90;Bottom;D1 D0
+13;;THT;19.064;-53.0951;-90;Bottom;3Vout
+14;;;66.1811;-3.81897;0;Bottom;Hole1
+15;10µF;100 mil [THT, electrolytic];16.016;-19.0591;-90;Bottom;10uf
+16;;dil08;14.111;-35.5564;-90;Bottom;485IC
+17;;THT;8.90403;-53.0951;-90;Bottom;5Vout
+18;;;43.3295;-36.8391;-90;Bottom;Nano
+19;;;38.2409;-49.5391;0;Bottom;Via7
+20;;;64.9581;-34.9576;0;Bottom;Via10
+21;;;22.7187;-27.3565;0;Bottom;Via8
+22;;;63.641;-48.8805;0;Bottom;Via9
+23;;;17.9682;-3.34859;0;Bottom;TXT1
+24;;THT;61.482;-22.3611;0;Bottom;D10 D11
+25;;;67.4511;-58.429;0;Bottom;Hole3
+26;;THT;59.704;-53.0951;-90;Bottom;D6 D9
+27;;;19.4261;-59.4168;0;Bottom;TXT1
+28;;;8.88992;-59.5108;0;Bottom;TXT1
+29;680;THT;15.381;-44.4591;0;Bottom;680
+30;;;27.8928;-3.34859;0;Bottom;TXT1
+31;;THT;29.224;-53.0951;-90;Bottom;A5 A4
+32;;THT;18.048;-10.4231;90;Bottom;12VIn
+33;;;48.5893;-3.25461;0;Bottom;TXT1
+34;;;53.481;-48.8805;0;Bottom;Via11
+35;;THT;47.131;-41.9191;90;Bottom;A3 A2
+36;;;8.06676;-24.9521;0;Bottom;IMG1
+37;;;38.4293;-2.97238;0;Bottom;TXT1
+38;680;THT;5.22103;-39.3791;-90;Bottom;680
+39;;THT;49.544;-53.0951;-90;Bottom;D3 D5
+40;;THT;38.368;-10.4231;90;Bottom;AuxVin
+41;;THT;58.688;-10.4231;90;Bottom;D8 D12
+42;100;THT;49.036;-24.7741;180;Bottom;100
+43;;;2.68103;-30.489;0;Bottom;Hole2
+44;100;THT;49.036;-22.2341;180;Bottom;100
+45;;THT;48.528;-10.4231;90;Bottom;AuxVout
+46;;THT;36.971;-41.9191;90;Bottom;A7 A6
+47;;THT;7.88803;-10.4231;90;Bottom;485 A/B
+48;1µF;100 mil [THT, electrolytic];32.526;-19.0591;-90;Bottom;1uf
+49;;;38.9498;-20.3972;-90;Bottom;RGB
