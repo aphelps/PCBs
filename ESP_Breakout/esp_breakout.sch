@@ -1108,30 +1108,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R2" library="SparkFun-Resistors" deviceset="1KOHM-1/4W-1%(PTH)" device="" value="10K"/>
 <part name="RXTX" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
-<part name="12V" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
+<part name="VCC" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="1KOHM-1/4W-1%(PTH)" device="" value="2k"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="1KOHM-1/4W-1%(PTH)" device="" value="1k"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="AVR_RST" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="ES8266" gate="G$1" x="60.96" y="55.88"/>
-<instance part="R1" gate="G$1" x="43.18" y="43.18" rot="R90"/>
-<instance part="SUPPLY4" gate="G$1" x="48.26" y="33.02" rot="R180"/>
-<instance part="GND1" gate="1" x="81.28" y="71.12" rot="R180"/>
-<instance part="R2" gate="G$1" x="86.36" y="55.88" rot="R180"/>
+<instance part="ES8266" gate="G$1" x="43.18" y="55.88"/>
+<instance part="R1" gate="G$1" x="25.4" y="43.18" rot="R90"/>
+<instance part="SUPPLY4" gate="G$1" x="30.48" y="33.02" rot="R180"/>
+<instance part="GND1" gate="1" x="63.5" y="71.12" rot="R180"/>
+<instance part="R2" gate="G$1" x="68.58" y="55.88" rot="R180"/>
 <instance part="RXTX" gate="G$1" x="101.6" y="90.17"/>
-<instance part="12V" gate="G$1" x="96.52" y="66.04"/>
+<instance part="VCC" gate="G$1" x="101.6" y="63.5"/>
 <instance part="R3" gate="G$1" x="128.27" y="83.82" rot="R270"/>
 <instance part="R4" gate="G$1" x="119.38" y="90.17" rot="R180"/>
 <instance part="GND3" gate="1" x="128.27" y="73.66"/>
-<instance part="GND5" gate="1" x="109.22" y="63.5"/>
-<instance part="SUPPLY1" gate="G$1" x="119.38" y="68.58" rot="R180"/>
+<instance part="GND5" gate="1" x="114.3" y="60.96"/>
+<instance part="SUPPLY1" gate="G$1" x="124.46" y="66.04" rot="R180"/>
+<instance part="SUPPLY2" gate="G$1" x="81.28" y="55.88" rot="R180"/>
+<instance part="AVR_RST" gate="G$1" x="101.6" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -1139,14 +1143,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="GND" class="0">
 <segment>
 <pinref part="ES8266" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
-<label x="71.12" y="60.96" size="1.778" layer="95"/>
+<wire x1="50.8" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
+<label x="53.34" y="60.96" size="1.778" layer="95"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="81.28" y1="68.58" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="68.58" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="12V" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="VCC" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -1159,30 +1163,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
-<wire x1="43.18" y1="38.1" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="33.02" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="38.1" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="ES8266" gate="G$1" pin="7"/>
-<wire x1="48.26" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="33.02" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
-<junction x="48.26" y="33.02"/>
+<wire x1="30.48" y1="33.02" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="33.02" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<junction x="30.48" y="33.02"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="55.88" x2="97.282" y2="55.88" width="0.1524" layer="91"/>
-<label x="92.202" y="56.388" size="1.778" layer="95"/>
+<wire x1="73.66" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
+<label x="74.422" y="56.388" size="1.778" layer="95"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="12V" gate="G$1" pin="2"/>
-<label x="106.68" y="68.58" size="1.778" layer="95"/>
-<wire x1="104.14" y1="68.58" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="VCC" gate="G$1" pin="2"/>
+<label x="111.76" y="66.04" size="1.778" layer="95"/>
+<wire x1="109.22" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="TX" class="0">
 <segment>
 <pinref part="ES8266" gate="G$1" pin="8"/>
-<wire x1="68.58" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
-<label x="71.12" y="53.34" size="1.778" layer="95"/>
+<wire x1="50.8" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<label x="53.34" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -1196,8 +1201,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="RX" class="0">
 <segment>
 <pinref part="ES8266" gate="G$1" pin="1"/>
-<label x="45.72" y="60.96" size="1.778" layer="95"/>
-<wire x1="38.1" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+<label x="27.94" y="60.96" size="1.778" layer="95"/>
+<wire x1="20.32" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RXTX" gate="G$1" pin="2"/>
@@ -1208,31 +1213,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="CH_PD" class="0">
 <segment>
 <pinref part="ES8266" gate="G$1" pin="3"/>
-<wire x1="53.34" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<label x="45.72" y="58.42" size="1.778" layer="95"/>
+<wire x1="35.56" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
+<label x="27.94" y="58.42" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="58.42" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="58.42" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST" class="0">
 <segment>
 <pinref part="ES8266" gate="G$1" pin="5"/>
-<wire x1="53.34" y1="55.88" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
-<label x="45.72" y="55.88" size="1.778" layer="95"/>
+<wire x1="35.56" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
+<label x="27.94" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GPIO2" class="0">
+<net name="AVR_RST" class="0">
 <segment>
 <pinref part="ES8266" gate="G$1" pin="4"/>
-<wire x1="68.58" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
-<label x="71.12" y="58.42" size="1.778" layer="95"/>
+<wire x1="50.8" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<label x="53.34" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="AVR_RST" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="45.72" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
+<label x="109.22" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
 <segment>
 <pinref part="ES8266" gate="G$1" pin="6"/>
-<wire x1="68.58" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
-<label x="71.12" y="55.88" size="1.778" layer="95"/>
+<wire x1="50.8" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
+<label x="53.34" y="55.88" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -1241,6 +1251,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="RXTX" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="90.17" x2="114.3" y2="90.17" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="NA" class="0">
+<segment>
+<pinref part="AVR_RST" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="43.18" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
+<label x="109.22" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
