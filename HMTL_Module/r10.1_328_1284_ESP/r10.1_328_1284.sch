@@ -6449,6 +6449,11 @@ amp@ampworksstudio.com</text>
 <wire x1="93.98" y1="114.3" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
 <label x="88.9" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ES1" gate="G$1" pin="4"/>
+<wire x1="271.78" y1="66.04" x2="284.48" y2="66.04" width="0.1524" layer="91"/>
+<label x="274.32" y="66.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
@@ -6535,11 +6540,6 @@ amp@ampworksstudio.com</text>
 <pinref part="U2" gate="G$1" pin="PC6(/RESET)"/>
 <wire x1="127" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
 <label x="116.84" y="71.12" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ES1" gate="G$1" pin="4"/>
-<wire x1="271.78" y1="66.04" x2="284.48" y2="66.04" width="0.1524" layer="91"/>
-<label x="274.32" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RS485A" class="0">
